@@ -1,0 +1,38 @@
+{
+  "name": "rez-sys",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^4.0.1",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "description": "This is a starter template for React (TypeScript) using Vite. I've also added TailwindCSS so you can style your app without writing CSS code, and ESLint to analyze your code and suggest some optimizations.",
+  "main": "index.js",
+  "author": "Dominik Kučera",
+  "license": "MIT"
+}
