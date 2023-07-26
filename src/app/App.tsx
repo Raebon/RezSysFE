@@ -1,11 +1,8 @@
-import './App.css'
-
-function App () {
-  return (
-    <div className="App">
-      test
-    </div>
-  )
+import Layout from "./layout/Layout";
+import "./App.css";
+import { Button } from "../shared/components/ui/button";
+function App() {
+  return <Layout />;
 }
 
-export default App
+export default App;
