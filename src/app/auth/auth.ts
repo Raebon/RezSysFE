@@ -9,5 +9,5 @@ const fakeAuthProvider = {
     setTimeout(callback, 100);
   },
 };
-//test
+
 export { fakeAuthProvider };
